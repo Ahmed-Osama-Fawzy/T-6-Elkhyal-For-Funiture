@@ -6,6 +6,97 @@
 html {
     scroll-behavior: smooth;
 }
+/* Media Quaries */
+@media(max-width:650px){
+    body{
+        text-align: center !important;
+    }
+    article section aside{
+        width: 80% !important;
+        margin: auto  !important;
+    }
+    header section div{
+        width: 97% !important;
+    }
+    article section:first-of-type div ,
+    article section:nth-of-type(2) div ,
+    article section:nth-of-type(3) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    article section:nth-of-type(4) div{
+        width: 45% !important;
+        padding: 1.25% !important;
+        margin: 1.25% !important;
+    }
+    article section:nth-of-type(5)>div ,  article section:nth-of-type(5)  div:last-of-type{
+        width: 90% !important;
+    }
+    article section:nth-of-type(6) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    footer div , footer section {
+        width: 80% !important;
+        margin: 5% !important;
+        padding: 5% !important;
+    }
+    footer section div:first-of-type {
+        display: none !important;
+    }
+    footer section , footer section div{
+        width: 90% !important;
+        margin: 0 !important;
+    }
+    #ME span{
+        width: 100% !important;
+    }
+}
+@media(max-width:1000px) and (min-width:651px){
+    body{
+        text-align: center !important;
+    }
+    article section aside{
+        width: 80% !important;
+        margin: auto  !important;
+    }
+    header section div{
+        width: 97% !important;
+    }
+    article section:first-of-type div {
+        width: 90% !important;
+        padding: 2.5% !important;
+        margin: 2.5% !important;
+    }
+    article section:nth-of-type(2) div ,
+    article section:nth-of-type(3) div , 
+    article section:nth-of-type(4) div{
+        width: 45% !important;
+        padding: 1.25% !important;
+        margin: 1.25% !important;
+    }
+    article section:nth-of-type(5)>div ,  article section:nth-of-type(5)  div:last-of-type{
+        width: 90% !important;
+    }
+    article section:nth-of-type(6) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    footer div{
+        width: 46% !important;
+        margin: 2% !important;
+    }
+    footer section div:first-of-type {
+        display: none !important;
+    }
+    footer section , footer section div{
+        width: 100% !important;
+    }
+}
+/* Media Quaries */
 header{
     overflow: hidden;
     background-image: url("images/sculptural-furniture-1574790540.jpg");
@@ -33,7 +124,7 @@ header section div ul {
 }
 header section div ul li {
     display: inline-block;
-    padding: 16px;
+    padding: 12px;
     font-size: larger;
     color:red;
     transition: 1s;
